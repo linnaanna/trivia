@@ -10,19 +10,10 @@
   border-radius: 8px;
   background-color: rgb(247, 130, 150);
 }
+
  .footer {
   text-align: left;
   padding-top: 300px;
   font-size: small;
  }
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
