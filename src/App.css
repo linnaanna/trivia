@@ -1,18 +1,20 @@
 .App {
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(246, 208, 214);
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button {
+  border-radius: 8px;
+  background-color: rgb(247, 130, 150);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+ .footer {
+  text-align: left;
+  padding-top: 300px;
+  font-size: small;
+ }
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,15 +26,3 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
